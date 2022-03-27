@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+### This page is specifically for the one page website used by the Provo 23rd Ward of the Church of Jesus Christ of Latter-Day Saints!
+
 <!--
 **provo23rdWard/Provo23rdWard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
