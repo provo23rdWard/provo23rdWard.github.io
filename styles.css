@@ -1,0 +1,58 @@
+p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: lightgray;
+    border: 2px solid gray
+}
+
+h4 {
+    background-color: #006184;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p, strong, a  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 100px; 
+    height: 75px;
+    color: white;
+    background-color:darkcyan;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
+}
+
+.churchLogo {
+    @media (max-width: 768px) {
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+.container {
+    @media (max-width: 768px) {
+        width: 80%;
+    }
+}
+
+.containerContainer {
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+    }
+}
