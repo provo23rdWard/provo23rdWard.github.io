@@ -4,7 +4,55 @@ p {
 
 footer {
     background-color: lightgray;
-    border: 2px solid gray
+    border: 2px solid gray;
+    width: 100%;
+}
+
+.home-footer {
+    position: relative;
+}
+
+.mission-footer {
+    position: relative;
+}
+
+.main {
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-footer {
+        position: absolute;
+        bottom: 0px;
+    }
+    .main {
+        position: absolute;
+        bottom: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .mission-footer {
+        position: absolute;
+        bottom: 0px;
+    }
+    .main {
+        position: absolute;
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .ward-mission {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1351px) {
+    .ward-mission {
+        min-width: 1250px;
+    }
 }
 
 h4 {
