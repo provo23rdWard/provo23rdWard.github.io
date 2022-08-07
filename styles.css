@@ -20,27 +20,34 @@ footer {
     position: relative;
 }
 
+.page-header {
+    margin-top: 200px;
+}
+
 @media screen and (max-width: 1000px) {
-    .home-footer {
+    /* .home-footer {
         position: absolute;
         bottom: 0px;
     }
     .main {
         position: absolute;
         bottom: 150px;
+    } */
+    .page-header {
+        margin-top: 800px;
     }
 
 }
 
 @media screen and (max-width: 1000px) {
-    .mission-footer {
+    /* .mission-footer {
         position: absolute;
         bottom: 0px;
     }
     .main {
         position: absolute;
         bottom: 150px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1350px) {
