@@ -15,6 +15,7 @@
 .navbar-toggler {
     width: auto;
     height: auto;
+    border-width: 3px;
 }
 
 #header-text-div {
