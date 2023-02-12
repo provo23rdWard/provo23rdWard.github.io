@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.church-logo {
+    max-width: 250px;
+    height: auto;
+}
+
 .navbar-toggler {
     width: auto;
     height: auto;
