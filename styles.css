@@ -7,6 +7,15 @@
     text-align: center;
 }
 
+#main-content {
+    z-index: 2;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
 .church-logo {
     max-width: 245px;
     height: auto;
@@ -75,6 +84,15 @@ footer {
     position: fixed;
 }
 
+.desktop-column {
+    width: 30%;
+}
+
+.useful-links-a {
+    text-decoration:underline;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) {
     /* .home-footer {
         position: absolute;
@@ -114,6 +132,23 @@ footer {
         background-size: contain;
         background-repeat: repeat-y;
 
+    }
+    #main-content {
+        z-index: 2;
+        padding-top: 25px;
+        padding-bottom: 100px;
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .desktop-column {
+        width: 100%;
     }
 }
 
