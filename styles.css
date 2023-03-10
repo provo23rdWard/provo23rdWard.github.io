@@ -53,10 +53,12 @@ footer {
 
 .home-footer {
   position: relative;
+  padding-left: 15px;
 }
 
 .mission-footer {
   position: relative;
+  padding-left: 15px;
 }
 
 .main {
