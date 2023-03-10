@@ -128,8 +128,7 @@ footer {
         width: auto; 
         max-width: 100%;
         height: 65%;
-        position: fixed;
-        
+        position: relative;
 
     }
     #main-content {
