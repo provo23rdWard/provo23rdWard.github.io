@@ -137,6 +137,18 @@ footer {
     width: 100%;
   }
 
+  h4 {
+    font-size: 40px;
+  }
+
+  p, a, strong {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
   .center-text {
     text-align: center;
   }
