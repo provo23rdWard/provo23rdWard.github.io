@@ -127,7 +127,7 @@ footer {
         z-index: 1 !important;
         width: auto; 
         max-width: 100%;
-        height: auto;
+        height: 85%;
         position: fixed;
         background-size: contain;
         background-repeat: repeat-y;
