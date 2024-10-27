@@ -45,10 +45,16 @@
 .not-clicked-button {
 }
 
-footer {
+/* footer {
   background-color: lightgray;
   border: 2px solid gray;
   width: 100%;
+} */
+footer {
+  background-color: #006184;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .home-footer {
